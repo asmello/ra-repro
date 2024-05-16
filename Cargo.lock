@@ -5,6 +5,9 @@ version = 3
 [[package]]
 name = "provider"
 version = "0.1.0"
+dependencies = [
+ "re_exporter",
+]
 
 [[package]]
 name = "ra-repro"
